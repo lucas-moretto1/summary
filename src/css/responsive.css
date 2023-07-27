@@ -1,0 +1,46 @@
+@media(max-width:680px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 325px;
+        height: 700px;
+    }
+
+    .container .info {
+        height: 350px;
+    }
+    
+    .container .info .results {
+        margin-top: 50px;
+    }
+
+    .container .info .number {
+        margin-top: 10px;
+    }
+
+    .container .info .great {
+        margin-top: 8px;
+    }
+
+    .container .info .description {
+        margin-top: 8px;
+        font-size: 1.2rem;
+    }
+
+    .container .summary{
+        height: 350px;
+    }
+
+    .container .summary .title {
+        margin-top: 10px;
+    }
+
+    .container .summary .topic {
+        margin-top: 0;
+    }
+
+    .container .summary .btn {
+        margin-top: 0;
+    }
+}
